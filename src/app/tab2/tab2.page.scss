@@ -1,0 +1,37 @@
+.horizontal-scroll {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  .scroll-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  ion-row {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc; /* Adicione uma borda entre os itens se desejar */
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-details {
+    text-align: left;
+  }
+  
+  .product-name, .product-price {
+    display: block;
+  }
+  
+  .favorite-icon {
+    font-size: 24px;
+    color: red;
+    text-align: right;
+  }

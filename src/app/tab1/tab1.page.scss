@@ -1,0 +1,52 @@
+ion-col {
+    background-color: #135d5400;
+    border: solid 1px #fff;
+    color: #000;
+    text-align: center;
+  }
+  .PageTittle {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+  .searchBar {
+    --border-radius: 20px;
+  }
+
+
+
+  .horizontal-scroll {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  .scroll-content {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .coluna {
+    display: inline-block;
+    flex: 0 0 auto;
+    width: 200px; /* Ajuste conforme necessário */
+    text-align: center;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  
+  .product-name {
+    text-align: left;
+  }
+  
+  .product-price {
+    text-align: right;
+  }
